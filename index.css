@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(215, 240, 250); 
+}
+
+.imagen-container{
+    border-radius: 5px;
+    position: center;
+    padding: 0.5px;
+    max-height: 40vh; /* el % que qiuero que se vea */
+    overflow: hidden; /* el % restante lo esconde */
+}
+
+img {
+    width: 100%;
+}
+
+.texto-ensima{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+
+.pagprincipal{
+    text-align: center;
+}
+
+
+#misitio{
+    font-family: 'Raleway Dots', cursive;
+}
+
+#bymaily{
+    font-family: 'Cinzel Decorative', cursive;
+    color:#397eac ;
+}
+
+.tres{
+    font-family: 'Annie Use Your Telescope';font-size: 25px;
+}
+
+.lineadebotones{
+    position: absolute;
+}
+
+a{
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*para no poner linea debajo tipico de link*/
+    text-transform: uppercase; /*pasar a mayuscula*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 1px; /*bordes redondos*/
+    float: left;
+}
